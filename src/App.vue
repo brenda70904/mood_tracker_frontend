@@ -7,8 +7,10 @@ import HelloWorld from './components/HelloWorld.vue'
   <div>
     <nav>
       <router-link to="/">Home</router-link> |
-      <router-link to="/entries">紀錄列表</router-link>
-      <router-link to="/new">新增紀錄</router-link>
+      <router-link to="/entries">紀錄列表</router-link> |
+      <router-link to="/new">新增紀錄</router-link> |
+      <router-link to="/stats">每月心情統計</router-link>
+      
     </nav>
     <nav>
       <router-view></router-view>
